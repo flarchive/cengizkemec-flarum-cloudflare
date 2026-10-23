@@ -1,0 +1,17 @@
+cengizkemec-cloudflare:
+  admin:
+    settings:
+      enabled_label: Enable Cloudflare integration
+      enabled_help: Turn Cloudflare API integration on or off.
+      api_token_label: API Token
+      api_token_help: Create an API token in Cloudflare with Zone:Cache Purge and Zone:Read permissions.
+      account_id_label: Account ID
+      account_id_help: Your Cloudflare account ID.
+      zone_id_label: Zone ID
+      zone_id_help: The ID of the zone whose cache should be managed.
+      zone_name_label: Zone name
+      zone_name_help: The domain name of the zone (for reference).
+      auto_purge_label: Purge cache automatically
+      auto_purge_help: Purge the Cloudflare cache automatically when discussions or posts are created.
+      development_mode_label: Development mode
+      development_mode_help: Toggle Cloudflare development mode for the zone.

@@ -1,0 +1,17 @@
+cengizkemec-cloudflare:
+  admin:
+    settings:
+      enabled_label: Cloudflare entegrasyonunu etkinleştir
+      enabled_help: Cloudflare API entegrasyonunu açar veya kapatır.
+      api_token_label: API Token
+      api_token_help: Zone:Cache Purge ve Zone:Read izinlerine sahip bir Cloudflare API token oluşturun.
+      account_id_label: Hesap Kimliği (Account ID)
+      account_id_help: Cloudflare hesap kimliğiniz.
+      zone_id_label: Zone Kimliği (Zone ID)
+      zone_id_help: Önbelleği yönetilecek zone'un kimliği.
+      zone_name_label: Zone adı
+      zone_name_help: Zone'un alan adı (referans için).
+      auto_purge_label: Önbelleği otomatik temizle
+      auto_purge_help: Tartışma veya ileti oluşturulduğunda Cloudflare önbelleğini otomatik olarak temizler.
+      development_mode_label: Geliştirme modu
+      development_mode_help: Zone için Cloudflare geliştirme modunu açar veya kapatır.
