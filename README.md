@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of cengizkemec/cloudflare.** Not for installation: use [Packagist](https://packagist.org/packages/cengizkemec/cloudflare) or the [upstream repository](https://github.com/cengizkemec/flarum-cloudflare).
 
-**0** versions archived · Latest: [`1.2.7`](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.7) · License: `MIT` · Flarum: `^2.0.0`
+**11** versions archived · Latest: [`1.2.7`](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.7) · License: `MIT` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.1` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.0.1) |
+| `1.1.0` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.1.0) |
+| `1.2.0` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.0) |
+| `1.2.1` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.1) |
+| `1.2.2` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.2) |
+| `1.2.3` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.3) |
+| `1.2.4` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.4) |
+| `v1.0.0` | 2026-10-22 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.0.0) |
+| `1.2.5` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.5) |
+| `1.2.6` | 2026-10-23 | `^2.0.0` | [Browse](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tree/archive/v1.2.6) |
+
+[View all 11 versions](https://github.com/flarchive/cengizkemec-flarum-cloudflare/tags)
 
 Catalog entry: [packages/cengizkemec-flarum-cloudflare.json](https://github.com/flarchive/archive-index/blob/main/packages/cengizkemec-flarum-cloudflare.json)
 
