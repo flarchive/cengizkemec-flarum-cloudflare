@@ -1,0 +1,81 @@
+cengizkemec-cloudflare:
+  admin:
+    settings:
+      enabled_label: Cloudflare entegrasyonunu etkinleştir
+      enabled_help: Cloudflare API entegrasyonunu açar veya kapatır.
+      api_token_label: API Token
+      api_token_help: Zone:Cache Purge ve Zone:Read izinlerine sahip bir Cloudflare API token oluşturun.
+      account_id_label: Hesap Kimliği (Account ID)
+      account_id_help: Cloudflare hesap kimliğiniz.
+      zone_id_label: Zone Kimliği (Zone ID)
+      zone_id_help: Önbelleği yönetilecek zone'un kimliği.
+      zone_name_label: Zone adı
+      zone_name_help: Zone'un alan adı (referans için).
+      auto_purge_label: Önbelleği otomatik temizle
+      auto_purge_help: Tartışma veya ileti oluşturulduğunda Cloudflare önbelleğini otomatik olarak temizler.
+      auto_purge_warning: "YÜKSEK RİSK: açıkken HER yeni tartışma ve ileti, Cloudflare'e 'tümünü temizle' isteği gönderir. Aktif bir forumda bu, önbelleğe almayı neredeyse tamamen devre dışı bırakır ve ileti göndermeyi belirgin şekilde yavaşlatabilir. Etkisini tam olarak anlamıyorsanız etkinleştirmeyin."
+      auto_purge_active: "Otomatik temizlik ŞU ANDA AÇIK: her yeni tartışma veya ileti zone önbelleğinin TAMAMINI temizler. Siteniz yavaşlıyorsa veya kaynak sunucu yükü artıyorsa kapatın."
+      auto_purge_confirm_title: Otomatik önbellek temizliği etkinleştirilsin mi?
+      auto_purge_confirm_text: "UYARI — yüksek etkili bir ayardır. Etkinleştirildiğinde her yeni tartışma veya ileti, Cloudflare zone'unuzun TÜM önbelleğini temizler."
+      auto_purge_consequence_cache: Önbellek isabet oranınız keskin düşer — sayfaların çoğu kaynak sunucunuzdan önbelleğe alınmamış olarak sunulur.
+      auto_purge_consequence_speed: İleti göndermek yavaşlar — temizleme isteği kaydetme sırasında eşzamanlı çalışır.
+      auto_purge_consequence_recommend: "Önerilen alternatif — bunu kapalı tutun ve gerektiğinde manuel \"Önbelleği Temizle\" düğmesini kullanın."
+      auto_purge_confirm_ack: Bu sonuçları anlıyorum ve performans etkisini kabul ediyorum.
+      auto_purge_confirm_cancel: Vazgeç
+      auto_purge_confirm_enable: Yine de Etkinleştir
+      development_mode_label: Geliştirme modu
+      development_mode_help: Zone için Cloudflare geliştirme modunu açar veya kapatır.
+      bot_fight_mode_label: Bot Fight Mode
+      bot_fight_mode_help: Zone için Cloudflare Bot Fight Mode'u etkinleştirir.
+      always_online_label: Always Online
+      always_online_help: Kaynak sunucu kullanılamadığında önbellekteki sayfaları sunar.
+      brotli_label: Brotli
+      brotli_help: Zone için Brotli sıkıştırmayı etkinleştirir.
+      rocket_loader_label: Rocket Loader
+      rocket_loader_help: JavaScript kaynakları için Rocket Loader'ı etkinleştirir.
+      mirage_label: Mirage
+      mirage_help: Mirage görüntü optimizasyonunu etkinleştirir.
+      minify_js_label: JavaScript Küçült
+      minify_js_help: JavaScript dosyalarını küçültür.
+      minify_css_label: CSS Küçült
+      minify_css_help: CSS dosyalarını küçültür.
+      minify_html_label: HTML Küçült
+      minify_html_help: HTML dosyalarını küçültür.
+      security_level_label: Güvenlik Seviyesi
+      security_level_help: Zone güvenlik seviyesini ayarlar.
+      polish_label: Polish
+      polish_help: Polish görüntü optimizasyonunu etkinleştirir.
+      browser_cache_ttl_label: Tarayıcı Önbellek TTL
+      browser_cache_ttl_help: Zone için tarayıcı önbellek TTL süresini ayarlar.
+      ssl_mode_label: SSL/TLS Modu
+      ssl_mode_help: Zone için SSL/TLS şifreleme modunu ayarlar.
+      always_use_https_label: Her Zaman HTTPS Kullan
+      always_use_https_help: Tüm HTTP isteklerini HTTPS'ye yönlendirir.
+      min_tls_version_label: Minimum TLS Sürümü
+      min_tls_version_help: Zone için minimum TLS sürümünü ayarlar.
+      tls_1_3_label: TLS 1.3
+      tls_1_3_help: Zone için TLS 1.3'ü etkinleştirir.
+      automatic_https_rewrites_label: Otomatik HTTPS Yeniden Yazma
+      automatic_https_rewrites_help: HTTP URL'lerini otomatik olarak HTTPS'ye yeniden yazar.
+      http2_label: HTTP/2
+      http2_help: Zone için HTTP/2'yi etkinleştirir.
+      http3_label: HTTP/3
+      http3_help: Zone için HTTP/3 (QUIC) protokolünü etkinleştirir.
+      0rtt_label: 0-RTT Bağlantı Devamı
+      0rtt_help: 0-RTT bağlantı devamını etkinleştirir.
+      early_hints_label: Early Hints
+      early_hints_help: Zone için Early Hints (103) özelliğini etkinleştirir.
+      opportunistic_encryption_label: Fırsatçı Şifreleme
+      opportunistic_encryption_help: Zone için fırsatçı şifrelemeyi etkinleştirir.
+      actions_label: Cloudflare işlemleri
+      actions_help: Kaydedilen ayarları Cloudflare'a uygular veya önbelleği temizler.
+      test_connection: Bağlantıyı Test Et
+      apply_settings: Ayarları Cloudflare'a Uygula
+      purge_cache: Önbelleği Temizle
+      test_success: Cloudflare bağlantısı başarılı.
+      test_failed: Bağlantı testi başarısız oldu.
+      apply_success: Ayarlar Cloudflare'a uygulandı.
+      apply_partial: Bazı ayarlar uygulanamadı.
+      apply_failed: Ayarlar uygulanamadı.
+      purge_success: Önbellek temizlendi.
+      purge_failed: Önbellek temizlenemedi.

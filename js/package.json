@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@cengizkemec/cloudflare",
+  "version": "1.2.8",
+  "type": "module",
+  "devDependencies": {
+    "flarum-tsconfig": "^2.0.0",
+    "flarum-webpack-config": "^3.0.0",
+    "mithril": "^2.2.9",
+    "typescript": "^6.0.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  }
+}
