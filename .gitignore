@@ -1,0 +1,9 @@
+/vendor/
+/composer.lock
+/js/node_modules/
+/js/dist-typings/
+/js/dist/*.js.map
+/js/npm-debug.log*
+.DS_Store
+.idea/
+.vscode/
